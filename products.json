@@ -1,0 +1,850 @@
+[
+  {
+    "id": "1",
+    "title": "Рюкзак Louis Vuitton",
+    "price": "2600",
+    "category": "ryukzaki",
+    "image": "/images/lv_backpack.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "2",
+    "title": "Рюкзак Louis Vuitton (повтор)",
+    "price": "2600",
+    "category": "ryukzaki",
+    "image": "/images/lv_backpack1.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "3",
+    "title": "Рюкзак Louis Vuitton (ещё одна партия)",
+    "price": "2600",
+    "category": "ryukzaki",
+    "image": "/images/lv_backpack2.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "4",
+    "title": "Сумка Coach",
+    "price": "2450",
+    "category": "sumki",
+    "image": "/images/coach_bag.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "5",
+    "title": "Ремень Louis Vuitton",
+    "price": "1300",
+    "category": "remni",
+    "image": "/images/lv_belt.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "7",
+    "title": "Сумка Dior X Alyx (маленькие)",
+    "price": "2450",
+    "category": "sumki",
+    "image": "/images/dior_alyx_bag.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "8",
+    "title": "Сумка Louis Vuitton",
+    "price": "2600",
+    "category": "sumki",
+    "image": "/images/lv_bag1.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "9",
+    "title": "Сумка Louis Vuitton",
+    "price": "2600",
+    "category": "sumki",
+    "image": "/images/lv_bag.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "10",
+    "title": "Сумка Jordan Monogram",
+    "price": "2200",
+    "category": "sumki",
+    "image": "/images/jordan_monogram_bag.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "14",
+    "title": "Зипка Corteiz New Collection",
+    "price": "2500",
+    "category": "hoodie",
+    "image": "/images/corteiz_hoodie4.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "15",
+    "title": "Зипка Corteiz New Collection",
+    "price": "2500",
+    "category": "hoodie",
+    "image": "/images/corteiz_hoodie3.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "16",
+    "title": "Зипка Corteiz New Collection",
+    "price": "2500",
+    "category": "hoodie",
+    "image": "/images/corteiz_hoodie2.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "17",
+    "title": "Зипка Corteiz New Collection",
+    "price": "2500",
+    "category": "hoodie",
+    "image": "/images/corteiz_hoodie1.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "18",
+    "title": "Зипка Corteiz New Collection",
+    "price": "2500",
+    "category": "hoodie",
+    "image": "/images/corteiz_hoodie.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "25",
+    "title": "Носки Polo Ralph Lauren средние",
+    "price": "1000",
+    "category": "noski",
+    "image": "/images/polo_socks.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "26",
+    "title": "Nike ACG Air Zoom Gaiadome Gore Tex",
+    "price": "4600",
+    "category": "zimnyaya-obuv",
+    "image": "/images/nike_acg_gaiadome.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "27",
+    "title": "Куртка Prada",
+    "price": "4300",
+    "category": "kurtki",
+    "image": "/images/prada_jacket1.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "28",
+    "title": "Куртка Moncler",
+    "price": "4300",
+    "category": "kurtki",
+    "image": "/images/moncler_jacket1.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "29",
+    "title": "Nike Air Max 90",
+    "price": "3900",
+    "category": "krossovki",
+    "image": "/images/air_max_90.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "30",
+    "title": "Vans SK8 Hi Gore-Tex MTE 3",
+    "price": "4700",
+    "category": "zimnyaya-obuv",
+    "image": "/images/vans_sk8_hi_goretex.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "31",
+    "title": "Louis Vuitton Trainer",
+    "price": "4100",
+    "category": "krossovki",
+    "image": "/images/lv_trainer.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "32",
+    "title": "Nike Air Lunar Force Duckboot",
+    "price": "3500",
+    "category": "zimnyaya-obuv",
+    "image": "/images/nike_lunar_duckboot_black.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "33",
+    "title": "Nike Air Lunar Force Duckboot",
+    "price": "3500",
+    "category": "zimnyaya-obuv",
+    "image": "/images/nike_lunar_duckboot.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "34",
+    "title": "Asics Gel Pickax",
+    "price": "4200",
+    "category": "zimnyaya-obuv",
+    "image": "/images/asics_gel_pickax.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "35",
+    "title": "Ветровка Adidas Chinese (красная)",
+    "price": "5000",
+    "category": "vetrovki",
+    "image": "/images/adidas_chinese_red.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "37",
+    "title": "Nike Air Force 1 Acronym",
+    "price": "4900",
+    "category": "krossovki",
+    "image": "/images/af1_acronym1.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "41",
+    "title": "DC Court Graffiti",
+    "price": "3900",
+    "category": "krossovki",
+    "image": "/images/dc_court_graffiti.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "42",
+    "title": "Louis Vuitton Trainer",
+    "price": "4100",
+    "category": "krossovki",
+    "image": "/images/lv_trainer.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "43",
+    "title": "New Balance 1906 D",
+    "price": "3900",
+    "category": "krossovki",
+    "image": "/images/nb_1906d.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "51",
+    "title": "Ремень Balenciaga с открывашкой",
+    "price": "1590",
+    "category": "remni",
+    "image": "/images/balenciaga_belt.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "52",
+    "title": "Ремень Maison Margiela",
+    "price": "1590",
+    "category": "remni",
+    "image": "/images/margiela_belt.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "53",
+    "title": "Ремень Valentino",
+    "price": "1590",
+    "category": "remni",
+    "image": "/images/valentino_belt.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "54",
+    "title": "Ремень Burberry",
+    "price": "1590",
+    "category": "remni",
+    "image": "/images/burberry_belt.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "55",
+    "title": "Ремень Chrome Hearts",
+    "price": "1590",
+    "category": "remni",
+    "image": "/images/chrome_hearts_belt.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "56",
+    "title": "Зип Polo Ralph Lauren голубая",
+    "price": "3590",
+    "category": "hoodie",
+    "image": "/images/polo_zip_blue.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "57",
+    "title": "Жилетка Jordan Supreme",
+    "price": "5490",
+    "category": "zhilety",
+    "image": "/images/jordan_supreme_vest.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "58",
+    "title": "Жилетка Polo",
+    "price": "4590",
+    "category": "zhilety",
+    "image": "/images/polo_vest.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "59",
+    "title": "Штаны Jaded London Tattoo Navy Blue",
+    "price": "4000",
+    "category": "shtany",
+    "image": "/images/jaded_london_navy_blue.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "60",
+    "title": "Штаны Jaded London Tattoo (Серый/Черный)",
+    "price": "5000",
+    "category": "shtany",
+    "image": "/images/jaded_london_grey_black.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "61",
+    "title": "Носки Nike Nocta (высокие, 3 пары)",
+    "price": "1000",
+    "category": "noski",
+    "image": "/images/nike_nocta_socks.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "64",
+    "title": "Куртка Zara (пуховик, 8600₽)",
+    "price": "8600",
+    "category": "kurtki",
+    "image": "/images/zara_puffer_8600.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "65",
+    "title": "Куртка Zara",
+    "price": "7500",
+    "category": "kurtki",
+    "image": "/images/zara_puffer_7500.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "70",
+    "title": "Пуховик Oakley Puffer",
+    "price": "5490",
+    "category": "kurtki",
+    "image": "/images/oakley_puffer.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "71",
+    "title": "Пуховик Prada",
+    "price": "6590",
+    "category": "kurtki",
+    "image": "/images/prada_puffer.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "72",
+    "title": "Зип-худи ERD",
+    "price": "3790",
+    "category": "hoodie",
+    "image": "/images/erd_zip_hoodie_old.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "74",
+    "title": "Свитер Broken Planet",
+    "price": "2390",
+    "category": "hoodie",
+    "image": "/images/broken_planet_sweater.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "75",
+    "title": "Кардиган Maison Margiela",
+    "price": "3790",
+    "category": "hoodie",
+    "image": "/images/margiela_cardigan.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "76",
+    "title": "Зип-худи ERD (новый дроп)",
+    "price": "4590",
+    "category": "hoodie",
+    "image": "/images/erd_zip_hoodie.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "77",
+    "title": "Пуховик Burberry (отправка Новосибирск)",
+    "price": "5990",
+    "category": "kurtki",
+    "image": "/images/burberry_puffer2.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "78",
+    "title": "Пуховик Burberry (ещё одна партия)",
+    "price": "5990",
+    "category": "kurtki",
+    "image": "/images/burberry_puffer1.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "79",
+    "title": "Пуховик Moncler Madeira",
+    "price": "6490",
+    "category": "kurtki",
+    "image": "/images/moncler_madeira.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "83",
+    "title": "Джемпер Polo Ralph",
+    "price": "3890",
+    "category": "hoodie",
+    "image": "/images/polo_sweater.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "84",
+    "title": "Nike Air Force 1 (зимняя модель)",
+    "price": "3890",
+    "category": "zimnyaya-obuv",
+    "image": "/images/af1_winter.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "85",
+    "title": "Кеды Saint Laurent",
+    "price": "5990",
+    "category": "krossovki",
+    "image": "/images/saint_laurent_sneakers.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "86",
+    "title": "Кроссовки Louis Vuitton",
+    "price": "5990",
+    "category": "krossovki",
+    "image": "/images/lv_sneakers.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "87",
+    "title": "Кроссовки Dior",
+    "price": "5990",
+    "category": "krossovki",
+    "image": "/images/dior_sneakers.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "88",
+    "title": "Кроссовки Prada",
+    "price": "5990",
+    "category": "krossovki",
+    "image": "/images/prada_sneakers.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "89",
+    "title": "Кеды Valentino",
+    "price": "4390",
+    "category": "krossovki",
+    "image": "/images/valentino_sneakers3.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "90",
+    "title": "Кеды Valentino (ещё одна партия)",
+    "price": "4390",
+    "category": "krossovki",
+    "image": "/images/valentino_sneakers2.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "91",
+    "title": "Кеды Valentino",
+    "price": "4690",
+    "category": "krossovki",
+    "image": "/images/valentino_sneakers1.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "92",
+    "title": "Кеды Valentino (повторная партия)",
+    "price": "4690",
+    "category": "krossovki",
+    "image": "/images/valentino_sneakers.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "93",
+    "title": "Кеды Christian Louboutin с шипами",
+    "price": "5990",
+    "category": "krossovki",
+    "image": "/images/cl_spiked.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "96",
+    "title": "Кеды Balenciaga Arena",
+    "price": "6390",
+    "category": "krossovki",
+    "image": "/images/balenciaga_arena.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "97",
+    "title": "Куртка Polo Ralph Lauren (синий)",
+    "price": "4700",
+    "category": "kurtki",
+    "image": "/images/polo_blue_jacket.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "98",
+    "title": "Куртка Polo Ralph Lauren (черный)",
+    "price": "4700",
+    "category": "kurtki",
+    "image": "/images/polo_black_jacket.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "99",
+    "title": "Ремень Enfants Riches Deprimes ERD",
+    "price": "1590",
+    "category": "remni",
+    "image": "/images/erd_belt.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "100",
+    "title": "Пуховик Canada Goose",
+    "price": "5990",
+    "category": "kurtki",
+    "image": "/images/canada_goose_puffer.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "101",
+    "title": "Пуховик Syna World",
+    "price": "4990",
+    "category": "kurtki",
+    "image": "/images/syna_world_puffer.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "102",
+    "title": "Пуховик Corteiz с капюшоном",
+    "price": "3990",
+    "category": "kurtki",
+    "image": "/images/corteiz_hooded.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "103",
+    "title": "Куртка Moncler",
+    "price": "3990",
+    "category": "kurtki",
+    "image": "/images/moncler_jacket.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "104",
+    "title": "Куртка Louis Vuitton",
+    "price": "3990 (опт от 2700)",
+    "category": "kurtki",
+    "image": "/images/lv_jacket.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "105",
+    "title": "New balance 1906 R Gore Tex (белая строчка)",
+    "price": "3990",
+    "category": "krossovki",
+    "image": "/images/nb_1906r_gtx.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "106",
+    "title": "Asics Gel Nyc Gore Tex",
+    "price": "4390",
+    "category": "krossovki",
+    "image": "/images/asics_gel_nyc_gtx.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "109",
+    "title": "Пуховик Moncler",
+    "price": "4490",
+    "category": "kurtki",
+    "image": "/images/moncler_puffer.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "110",
+    "title": "Сумка Vivienne Westwood (розовая)",
+    "price": "5990 / 5290",
+    "category": "sumki",
+    "image": "/images/vivienne_westwood_bag.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "111",
+    "title": "Сумка Cultivator",
+    "price": "2399",
+    "category": "sumki",
+    "image": "/images/cultivator_bag.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "112",
+    "title": "Пуховик Corteiz рефлектив",
+    "price": "4990",
+    "category": "kurtki",
+    "image": "/images/corteiz_reflective.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "113",
+    "title": "Lanvin Curb",
+    "price": "2990",
+    "category": "krossovki",
+    "image": "/images/lanvin_curb_pink.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "114",
+    "title": "Asics Gel Pickax",
+    "price": "4190",
+    "category": "krossovki",
+    "image": "/images/asics_gel_pickax.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "115",
+    "title": "Nike Air Jordan 5 Gore-Tex",
+    "price": "4390",
+    "category": "zimnyaya-obuv",
+    "image": "/images/aj5_gtx.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "116",
+    "title": "Nike Air Max 95",
+    "price": "3790",
+    "category": "krossovki",
+    "image": "/images/air_max_95.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "117",
+    "title": "Puma Suede XL",
+    "price": "3490",
+    "category": "krossovki",
+    "image": "/images/puma_suede_xl_variant_1.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "118",
+    "title": "Puma Suede XL (вариант 2)",
+    "price": "3490",
+    "category": "krossovki",
+    "image": "/images/puma_suede_xl_variant_2.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "119",
+    "title": "Puma Suede XL (вариант 3)",
+    "price": "3490",
+    "category": "krossovki",
+    "image": "/images/puma_suede_xl_variant_3.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "120",
+    "title": "Puma Suede XL (вариант 4)",
+    "price": "3490",
+    "category": "krossovki",
+    "image": "/images/puma_suede_xl_variant_4.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "121",
+    "title": "Nike Air Force 1 Acronym",
+    "price": "5490",
+    "category": "krossovki",
+    "image": "/images/af1_acronym.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "122",
+    "title": "Ботинки Timberland",
+    "price": "6490",
+    "category": "zimnyaya-obuv",
+    "image": "/images/timberland.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "123",
+    "title": "Nike Air Jordan 13",
+    "price": "4390",
+    "category": "krossovki",
+    "image": "/images/aj13.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "124",
+    "title": "Lanvin Curb",
+    "price": "4490",
+    "category": "krossovki",
+    "image": "/images/lanvin_curb_pink.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "125",
+    "title": "Куртка Polo Ralph Lauren (серая)",
+    "price": "4700",
+    "category": "kurtki",
+    "image": "/images/polo_jacket_grey.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "126",
+    "title": "Nike Air Max 95 Gore Tex",
+    "price": "4290",
+    "category": "krossovki",
+    "image": "/images/air_max_95_gtx.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "127",
+    "title": "Nike ACG Terra Antarktik Gore Tex",
+    "price": "4490",
+    "category": "krossovki",
+    "image": "/images/acg_terra.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "128",
+    "title": "Кропнутый лонгслив ERD",
+    "price": "3499",
+    "category": "longsliv",
+    "image": "/images/long_erd.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "129",
+    "title": "Пуховик Corteiz",
+    "price": "4290",
+    "category": "kurtki",
+    "image": "/images/corteiz.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "130",
+    "title": "Куртка Lacoste",
+    "price": "4490",
+    "category": "kurtki",
+    "image": "/images/lacoste.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "131",
+    "title": "Пуховик Oakley",
+    "price": "4299",
+    "category": "kurtki",
+    "image": "/images/oakley.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "201",
+    "title": "Ремень Enfants Riches Deprimes",
+    "price": "1590",
+    "category": "remni",
+    "image": "/images/enfants_riches_deprimes_belt.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "202",
+    "title": "Худи Supreme",
+    "price": "3290",
+    "category": "hudi",
+    "image": "/images/supreme_hoodie.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "203",
+    "title": "Олимпийка Nike Barcelona",
+    "price": "3290",
+    "category": "hudi",
+    "image": "/images/nike_barcelona.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "204",
+    "title": "Худи Maison Margiela",
+    "price": "3290",
+    "category": "hudi",
+    "image": "/images/maison_margiela.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "205",
+    "title": "Худи Balenciaga",
+    "price": "3290",
+    "category": "hudi",
+    "image": "/images/balenciaga_hoodie.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "206",
+    "title": "Лонгслив ERD",
+    "price": "3290",
+    "category": "longsliv",
+    "image": "/images/long_erd1.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "207",
+    "title": "Джемпер Polo Ralph Lauren",
+    "price": "3790",
+    "category": "hudi",
+    "image": "/images/polo_ralph_lauren_sweater.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "208",
+    "title": "Кардиган Polo Ralph Lauren",
+    "price": "3290",
+    "category": "hudi",
+    "image": "/images/polo_ralph_lauren_cardigan.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "209",
+    "title": "Зипка Celine",
+    "price": "3590",
+    "category": "hudi",
+    "image": "/images/celine_zip_hoodie.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  },
+  {
+    "id": "210",
+    "title": "Пуховик Corteiz",
+    "price": "4290",
+    "category": "kurtki",
+    "image": "/images/corteiz_puffer.jpg",
+    "link": "https://t.me/Mananger_Lumini"
+  }
+]
