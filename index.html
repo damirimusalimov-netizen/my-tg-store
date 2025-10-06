@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Каталог Lumini Store</title>
+  <title>Lumini Store — Каталог</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>🛍 Каталог Lumini Store</h1>
+    <h1>Lumini Store</h1>
   </header>
 
   <nav id="categories"></nav>
@@ -16,38 +16,42 @@
 
   <script>
     async function loadProducts() {
-      const response = await fetch('products.json');
-      const products = await response.json();
-      const catalog = document.getElementById('catalog');
-      const categoriesNav = document.getElementById('categories');
+      try {
+        const response = await fetch('products.json');
+        const products = await response.json();
+        const catalog = document.getElementById('catalog');
+        const categoriesNav = document.getElementById('categories');
 
-      const categories = [...new Set(products.map(p => p.category))];
-      categoriesNav.innerHTML = '<button onclick="filter()">Все</button>' +
-        categories.map(c => `<button onclick="filter('${c}')">${c}</button>`).join('');
+        const categories = [...new Set(products.map(p => p.category))];
+        categoriesNav.innerHTML = '<button onclick="filter()">Все</button>' +
+          categories.map(c => `<button onclick="filter('${c}')">${c}</button>`).join('');
 
-      window.filter = (cat) => {
-        const filtered = cat ? products.filter(p => p.category === cat) : products;
-        render(filtered);
-      };
+        window.filter = (cat) => {
+          const filtered = cat ? products.filter(p => p.category === cat) : products;
+          render(filtered);
+        };
 
-      const render = (list) => {
-        catalog.innerHTML = '';
-        list.forEach(p => {
-          const card = document.createElement('div');
-          card.className = 'card';
-          card.innerHTML = `
-            <img src="${p.image}" alt="${p.title}">
-            <div class="info">
-              <h2>${p.title}</h2>
-              <p class="price">${p.price} ₽</p>
-              <a href="${p.link}" target="_blank">Подробнее</a>
-            </div>
-          `;
-          catalog.appendChild(card);
-        });
-      };
+        const render = (list) => {
+          catalog.innerHTML = '';
+          list.forEach(p => {
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.innerHTML = `
+              <img src="${p.image}" alt="${p.title}">
+              <div class="info">
+                <h2>${p.title}</h2>
+                <p class="price">${p.price} ₽</p>
+                <a href="${p.link}" target="_blank">Подробнее</a>
+              </div>
+            `;
+            catalog.appendChild(card);
+          });
+        };
 
-      render(products);
+        render(products);
+      } catch (error) {
+        console.error("Ошибка загрузки каталога:", error);
+      }
     }
 
     loadProducts();

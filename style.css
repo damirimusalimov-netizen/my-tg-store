@@ -1,8 +1,8 @@
 :root {
-  --bg-main: #1a1b1e;
-  --bg-card: #2a2b2e;
-  --text: #e3e3e3;
-  --accent: #00a67e;
+  --bg-main: #121212;
+  --bg-card: #1e1e1e;
+  --text: #e5e5e5;
+  --accent: #ffb300; /* фирменный оранжево-золотой Lumini */
 }
 
 body {
@@ -10,19 +10,22 @@ body {
   background-color: var(--bg-main);
   font-family: "Inter", Arial, sans-serif;
   color: var(--text);
+  min-height: 100vh;
 }
 
 header {
-  background: #242526;
+  background-color: #181818;
   text-align: center;
-  padding: 20px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  padding: 18px 0;
+  border-bottom: 1px solid #2a2a2a;
 }
 
 h1 {
   margin: 0;
-  color: var(--accent);
   font-size: 1.8rem;
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 #categories {
@@ -30,8 +33,9 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-  padding: 10px;
-  background-color: #1f2022;
+  padding: 12px;
+  background-color: #181818;
+  border-bottom: 1px solid #2a2a2a;
 }
 
 #categories button {
@@ -39,51 +43,45 @@ h1 {
   color: var(--text);
   border: 1px solid #333;
   border-radius: 8px;
-  padding: 6px 12px;
+  padding: 6px 14px;
   cursor: pointer;
   transition: background-color 0.2s ease;
 }
 
 #categories button:hover {
-  background-color: #333;
+  background-color: #292929;
 }
 
 #catalog {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   padding: 20px;
 }
 
 .card {
   background-color: var(--bg-card);
-  border-radius: 14px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  border-radius: 12px;
   overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.6);
-}
-
-.card img {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-}
-
-.info {
-  padding: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.info {
+  padding: 14px;
+  text-align: center;
+}
+
 .info h2 {
   font-size: 1rem;
-  text-align: center;
   margin: 8px 0;
 }
 
@@ -91,18 +89,27 @@ h1 {
   color: var(--accent);
   font-weight: bold;
   margin-bottom: 10px;
+  font-size: 1.1rem;
 }
 
 .info a {
+  display: inline-block;
   background-color: var(--accent);
-  color: white;
+  color: #000;
   text-decoration: none;
-  padding: 6px 14px;
+  padding: 8px 16px;
   border-radius: 6px;
   font-weight: 600;
-  transition: background-color 0.2s;
 }
 
-.info a:hover {
-  background-color: #01966f;
+@media (max-width: 700px) {
+  #catalog {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 450px) {
+  #catalog {
+    grid-template-columns: 1fr;
+  }
 }
