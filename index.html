@@ -1,60 +1,31 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lumini Store — Каталог</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LuminiShop — Главная</title>
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header>
-    <h1>Lumini Store</h1>
+<body data-page="index">
+  <header class="site-header">
+    <div class="logo-wrap">
+      <div class="lumini-logo">LUMINISHOP</div>
+      <nav class="nav">
+        <a href="shop.html" class="nav-link">Каталог</a>
+        <a href="cart.html" class="nav-link">Корзина</a>
+      </nav>
+    </div>
   </header>
 
-  <nav id="categories"></nav>
-  <main id="catalog"></main>
+  <main class="container hero">
+    <h1>Добро пожаловать в LuminiShop!</h1>
+    <p>Мы рады видеть вас! У нас вы найдёте уникальные товары, отобранные с любовью. Исследуйте коллекцию и выберите что-то особенное для себя.</p>
+    <a href="shop.html" class="btn primary">Смотреть коллекцию</a>
+  </main>
 
-  <script>
-    async function loadProducts() {
-      try {
-        const response = await fetch('products.json');
-        const products = await response.json();
-        const catalog = document.getElementById('catalog');
-        const categoriesNav = document.getElementById('categories');
-
-        const categories = [...new Set(products.map(p => p.category))];
-        categoriesNav.innerHTML = '<button onclick="filter()">Все</button>' +
-          categories.map(c => `<button onclick="filter('${c}')">${c}</button>`).join('');
-
-        window.filter = (cat) => {
-          const filtered = cat ? products.filter(p => p.category === cat) : products;
-          render(filtered);
-        };
-
-        const render = (list) => {
-          catalog.innerHTML = '';
-          list.forEach(p => {
-            const card = document.createElement('div');
-            card.className = 'card';
-            card.innerHTML = `
-              <img src="${p.image}" alt="${p.title}">
-              <div class="info">
-                <h2>${p.title}</h2>
-                <p class="price">${p.price} ₽</p>
-                <a href="${p.link}" target="_blank">Подробнее</a>
-              </div>
-            `;
-            catalog.appendChild(card);
-          });
-        };
-
-        render(products);
-      } catch (error) {
-        console.error("Ошибка загрузки каталога:", error);
-      }
-    }
-
-    loadProducts();
-  </script>
+  <footer class="site-footer">
+    <p>© 2025 LuminiShop. С любовью 💛</p>
+  </footer>
 </body>
 </html>
