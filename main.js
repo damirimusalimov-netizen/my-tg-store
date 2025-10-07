@@ -5,4 +5,5 @@ document.addEventListener("DOMContentLoaded", () => {
   } else {
     alert("❌ Telegram WebApp API не найден");
   }
+  alert("mail.js подключен!");
 });

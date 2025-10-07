@@ -3,30 +3,21 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>LuminiShop — Каталог</title>
-  <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <title>Каталог — LuminiShop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Russo+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body data-page="shop">
-  <header class="site-header">
-    <div class="logo-wrap">
-      <div class="lumini-logo">LUMINISHOP</div>
-      <nav class="nav">
-        <a href="shop.html" class="nav-link active">Каталог</a>
-        <a href="cart.html" class="nav-link">Корзина</a>
-      </nav>
-    </div>
-  </header>
+  <div class="nav-switch">
+    <div class="nav-item active" onclick="window.location='shop.html'">Каталог</div>
+    <div class="nav-item" onclick="window.location='cart.html'">Корзина</div>
+  </div>
 
   <main class="container">
-    <h2>Каталог товаров</h2>
+    <h2 class="section-title">Каталог товаров</h2>
     <nav id="categories" class="categories"></nav>
     <div id="catalog" class="catalog grid"></div>
   </main>
-
-  <footer class="site-footer">
-    <p>Срок доставки: 7–14 дней | Telegram: @mananger_lumini</p>
-  </footer>
 
   <div id="toast" class="toast" aria-hidden="true"></div>
   <script src="app.js" defer></script>

@@ -4,36 +4,26 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Корзина — LuminiShop</title>
-  <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Russo+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body data-page="cart">
-  <header class="site-header">
-    <div class="logo-wrap">
-      <div class="lumini-logo">LUMINISHOP</div>
-      <nav class="nav">
-        <a href="shop.html" class="nav-link">Каталог</a>
-        <a href="cart.html" class="nav-link active">Корзина</a>
-      </nav>
-    </div>
-  </header>
+  <div class="nav-switch">
+    <div class="nav-item" onclick="window.location='shop.html'">Каталог</div>
+    <div class="nav-item active" onclick="window.location='cart.html'">Корзина</div>
+  </div>
 
-  <main class="container cart-page">
-    <h2>Ваша корзина</h2>
+  <main class="container">
+    <h2 class="section-title">Ваша корзина</h2>
     <div id="cart-list" class="cart-list"></div>
 
     <div class="cart-summary">
       <div id="cart-total" class="cart-total">Итого: 0 ₽</div>
-      <div class="cart-controls">
-        <button id="clear-cart" class="btn">Очистить</button>
-        <button id="checkout" class="btn primary">Оформить заказ</button>
-      </div>
+      <p class="cart-note">
+        Вы можете написать нам и скинуть скриншот вашей корзины 📸
+      </p>
     </div>
   </main>
-
-  <footer class="site-footer">
-    <p>© 2025 LuminiShop</p>
-  </footer>
 
   <div id="toast" class="toast" aria-hidden="true"></div>
   <script src="app.js" defer></script>
